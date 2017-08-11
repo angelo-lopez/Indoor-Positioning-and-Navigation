@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">UWS Indoor Positioning</string>
+    <string name="title_activity_map">UWS Indoor Positioning</string>
+    <string name="action_settings">Settings</string>
+    <!--Floor plan id is empty to allow automatic selection.-->
+    <string name="indooratlas_floor_plan_id"></string>
+
+    <!--String values for API keys.-->
+    <string name="indooratlas_api_key"></string><!--IndoorAtlas SDK API Key.-->
+    <string name="indooratlas_api_secret"></string><!--IndoorAtlas SDK API Secret.-->
+    <string name="googlemaps_api_key"></string><!--Google Maps API Key-->
+
+    <!--String values for messages.-->
+    <string name="location_permission_denied">Unable to access your location.</string>
+    <string name="storage_permission_denied">Unable to access external storage. Permission needed to access floor plans.</string>
+    <string name="no_destination_specified">No destination is specified. Please try again.</string>
+    <string name="load_from_json_error">Unable to load internal locations from database.</string>
+    <string name="destination_not_recognized">Your destination is not recognized.</string>
+
+    <!--String values for labels.-->
+    <string name="coord_header">Lat: 0, Lon: 0</string>
+    <string name="title_activity_search">Location Search</string>
+
+    <!--String values for constants-->
+    <string name="joint_marker">joint marker</string>
+</resources>
